@@ -1,0 +1,36 @@
+.about {
+    background-color: bisque;
+    max-width: 100%;
+    max-height: 100%;
+}
+.about-us-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: lightblue;
+  }
+  .about-us-text {
+    flex: 1; /* Take up remaining space */
+}
+  .about-us-container h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .about-us-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+  }
+  
+  .about-us-container ul {
+    list-style-type: none;
+  }
+  .about-us-image {
+    flex-shrink: 0; /* Prevent image from shrinking */
+    margin-left: 20px; /* Add some spacing between text and image */
+    max-width: 300px; /* Adjust the maximum width of the image */
+    align-self: left; /* Align image vertically center */
+    border-radius: 10px; /* Optional: Add border radius for rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Optional: Add box shadow for a stylish look */
+}
+  

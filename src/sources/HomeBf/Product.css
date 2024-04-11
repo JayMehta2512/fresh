@@ -1,0 +1,83 @@
+/* styles.css */
+
+.products-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; /* Adjust the gap between products */
+}
+
+.product {
+  flex: 1 0 200px; /* Adjust the width of each product card */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  padding: 20px;
+}
+
+.product img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.product h3 {
+  margin-top: 0;
+}
+
+.product p {
+  margin: 10px 0;
+}
+
+.product button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.product button:hover {
+  background-color: #0056b3;
+}
+.dropdown {
+  margin-bottom: 10px;
+}
+
+.dropdown label {
+  display: block;
+  font-weight: bold;
+}
+
+.dropdown select {
+  width: 100%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(94, 224, 114);
+  font-size: 20px;
+  font-weight: bold;
+}
+.stamp {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}

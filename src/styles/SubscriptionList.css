@@ -1,0 +1,30 @@
+/* SubscriptionList.css */
+.subscription-list {
+    padding: 20px;
+  }
+  
+  .subscription-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+  }
+  
+  .subscription-item p {
+    margin: 5px 0;
+  }
+  
+  .subscription-item button {
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+  }
+  
+  .subscription-item button:hover {
+    background-color: #ff4c2c;
+  }
+  

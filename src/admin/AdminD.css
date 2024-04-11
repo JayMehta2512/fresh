@@ -1,0 +1,76 @@
+/* AdminD.css */
+
+.admin-dashboard {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.report-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.report-button:hover {
+  background-color: #0056b3;
+}
+
+.users-list,
+.subscriptions-list {
+  margin-top: 30px;
+}
+
+.user-table,
+.subscription-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 1px solid #ddd;
+}
+
+.user-table th,
+.user-table td,
+.subscription-table th,
+.subscription-table td {
+  padding: 10px;
+  border: 1px solid #ddd;
+}
+
+.user-table th,
+.subscription-table th {
+  background-color: #f2f2f2;
+}
+
+.user-table tbody tr:nth-child(even),
+.subscription-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.user-table tbody tr:hover,
+.subscription-table tbody tr:hover {
+  background-color: #e2f0f8;
+}
+
+.edit-button,
+.deactivate-button {
+  padding: 8px 16px;
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-button:hover,
+.deactivate-button:hover {
+  background-color: #218838;
+}
+

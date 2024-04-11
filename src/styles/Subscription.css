@@ -1,0 +1,101 @@
+/* Subscription.css */
+
+.subscription-page {
+  padding: 20px;
+}
+
+.products-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 1 1 300px; /* Adjust the width of each product card as needed */
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 5px;
+}
+.image-container {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(94, 224, 114);
+  font-size: 20px;
+  font-weight: bold;
+}
+.stamp {
+  position: absolute;
+  top: 10px; /* Adjust as needed */
+  right: 10px; /* Adjust as needed */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.subscription-options {
+  margin-top: 10px;
+}
+
+.subscription-options label {
+  margin-right: 5px;
+}
+
+.subscription-options select,
+.subscription-options input[type="number"] {
+  margin-right: 10px;
+}
+
+.selected-product {
+  border: 2px solid #ccc;
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #fff;
+}
+
+.selected-product.notification {
+  background-color: #d4edda;
+  border-color: #c3e6cb;
+}
+
+.selected-product.notification p {
+  color: #155724;
+}
+
+.selected-product h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.selected-product p {
+  margin: 5px 0;
+}
+
+.selected-product a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.selected-product a:hover {
+  background-color: #0056b3;
+}
